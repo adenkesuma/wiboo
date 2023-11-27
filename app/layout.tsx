@@ -22,10 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${dmSans.className} bg-[#0F1117]`}>
         <Hero />
-        <main className="mx-auto container">
-          {children}
-          <Footer />
-        </main>
+        <main className="mx-auto container">{children}</main>
+        <Footer />
       </body>
     </html>
   );
